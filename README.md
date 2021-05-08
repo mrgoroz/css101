@@ -21,3 +21,11 @@
 	left:200px;
 }
 ```
+
+### center element 
+
+```css
+.p-box h1{
+	margin:auto;
+}
+```
