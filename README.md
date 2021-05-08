@@ -44,5 +44,8 @@
 .flex-container {
   display: flex;
   flex-direction: column; /* this is for vertical. default is horizontal */
+  .box2{
+  	flex:1; /* will give it 1 unit out of the sum of its brothers flex */
+  }
 }
 ```
