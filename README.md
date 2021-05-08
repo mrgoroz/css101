@@ -44,8 +44,11 @@
 .flex-container {
   display: flex;
   flex-direction: column; /* this is for vertical. default is horizontal */
+  justify-content: ... /* pushes the boxes to the sides or put margins between them or around them*/
   .box2{
   	flex:1; /* will give it 1 unit out of the sum of its brothers flex */
+	width/flex-basis: /* does the same */
+	flex-wrap: wrap; 
   }
 }
 ```
