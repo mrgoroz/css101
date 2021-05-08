@@ -38,3 +38,11 @@
 }
 ```
 
+### flexbox
+
+ ```css
+.flex-container {
+  display: flex;
+  flex-direction: column; /* this is for vertical. default is horizontal */
+}
+```
