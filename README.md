@@ -29,3 +29,12 @@
 	margin:auto;
 }
 ```
+
+### hide overflowing text outside container (for scrollbar put auto)
+  
+  ```css
+.p-box h1{
+  overflow: hidden;
+}
+```
+
