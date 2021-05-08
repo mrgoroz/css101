@@ -1,4 +1,5 @@
 # css101
+```css
 
 .block{
 	float:left;
@@ -7,3 +8,4 @@
 	padding:10px;
 	box-sizing:border-box;
 }
+```
