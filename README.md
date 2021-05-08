@@ -69,3 +69,14 @@
   }
 }
 ```
+
+### vars
+
+ ```css
+:root {
+  --main-bg-color: brown;
+}
+element {
+  background-color: var(--main-bg-color);
+}
+```
