@@ -52,3 +52,13 @@
   }
 }
 ```
+
+### grid
+
+ ```css
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 200px auto 40px; /* widths */
+  grid-column-gap: 50px; /* seperator same with row */
+}
+```
