@@ -58,7 +58,10 @@
  ```css
 .grid-container {
   display: grid;
-  grid-template-columns: 80px 200px auto 40px; /* widths */
-  grid-column-gap: 50px; /* seperator same with row */
+  grid-template-columns: 80px 200px auto 40px; /* widths can use fr like fractions*/
+  grid-column-gap: 50px; /* seperate all. same with row */
+  grid-auto-rows: minmax(100px, auto); /*same heights to all*/
+  justify-items: ... /* pushes the boxes to the sides or put margins between them or around them*/
+  align-items: ... /* pushes the boxes vertically*/
 }
 ```
