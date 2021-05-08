@@ -63,5 +63,9 @@
   grid-auto-rows: minmax(100px, auto); /*same heights to all*/
   justify-items: ... /* pushes the boxes to the sides or put margins between them or around them*/
   align-items: ... /* pushes the boxes vertically*/
+  .box{
+  	align/justify - self /* box handles itself*/
+	grid-column/ row: 1/3 /* handles self width */
+  }
 }
 ```
